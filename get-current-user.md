@@ -4,7 +4,7 @@ Goal: greet the current user by name in your app
 
 2. Update your OAuth2 login flow to request the admin read permission
 
-client.ts:
+client.ts or createClientAndAuth.ts (wherever you create your auth):
 
 ```
 const scopes = [
